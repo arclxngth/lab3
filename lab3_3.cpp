@@ -1,8 +1,12 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int x=2;
 
-    cout<<x;
-    return 0;
+    float x=2,sum=0;
+    while(x<=69){
+
+        sum +=1/x;
+        x++;
+    }
+    cout<<sum;
 }
